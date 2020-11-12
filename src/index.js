@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import element from './ex002'
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import Calculator from './ex003'
 
 ReactDOM.render(
-  element,
+  <Calculator />,
   document.getElementById('root')
 );
